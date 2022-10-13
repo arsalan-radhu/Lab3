@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE projects SYSTEM "projects.dtd">
+
+<projects>
+
+    <company>
+
+        <company_name>Arsalan's Services</company_name>
+        <company_address>123 Brad Rd</company_address>
+        <logo>image.jpg</logo>
+        <website_address>www.ArsalanServices.com</website_address>
+        <company_email>arsalanservices@email.com</company_email>
+        <company_phone>(912) 133-6867</company_phone>
+
+    </company>
+
+    <project project_id="P01">
+        
+        <title>Project 1</title>
+        <managers>
+			<manager>
+				<manager_name>
+
+					<first_name>Arsalan</first_name>
+					<middle_name>Arif</middle_name>
+					<last_name>Radhu</last_name>
+
+				</manager_name>
+				<manager_phone type="home">(411) 123-6767</manager_phone>
+				<manager_phone type="office">(912) 133-6867</manager_phone>
+				<manager_email>arsalan@services.com</manager_email>
+			</manager>
+        </managers>
+        <teams>
+			<team>
+				<leader>Arsalan</leader>
+				<developer>John</developer>
+				<developer>Jane</developer>
+				<tester>Ruby</tester>
+				<documenter>Brian</documenter>
+			</team>
+
+        </teams>
+        <clients client_id="001">
+			<client>
+				<client_name>Garminion</client_name>
+				<client_address>
+
+					<street>Faker St</street>
+					<city>Oshawa</city>
+					<country>Canada</country>
+					<postal>L2F 3D3</postal>
+
+				</client_address>
+				<client_email>garminion@email.com</client_email>
+				<client_phone>(123) 456-7890</client_phone>
+            </client>
+
+        </clients>
+		
+        <project_date project_type="start">October 01, 2022</project_date>
+        <project_date project_type="end">December 31, 2023</project_date>
+		
+        <project_comments>XML Example 1!</project_comments>
+
+    </project>
+	
+	<project project_id="P02">
+        
+        <title>Project 2</title>
+        <managers>
+			<manager>
+				<manager_name>
+
+					<first_name>John</first_name>
+					<middle_name></middle_name>
+					<last_name>Doe</last_name>
+
+				</manager_name>
+				<manager_phone type="home">(209) 999-6767</manager_phone>
+				<manager_phone type="office">901) 153-6942</manager_phone>
+				<manager_email>johnmd@logicorp.com</manager_email>
+			</manager>
+        </managers>
+        <teams>
+			<team>
+				<leader>John</leader>
+				<developer>Elyn</developer>
+				<developer>Sarah</developer>
+				<tester>D'Andre</tester>
+				<documenter>Zoe</documenter>
+			</team>
+
+        </teams>
+        <clients client_id="001">
+			<client>
+				<client_name>NVid</client_name>
+				<client_address>
+
+					<street>New Faker St</street>
+					<city>Cambridge</city>
+					<country>Canada</country>
+					<postal>L7F 3D9</postal>
+
+				</client_address>
+				<client_email>nvid@email.com</client_email>
+				<client_phone>(205) 311-7890</client_phone>
+            </client>
+
+        </clients>
+		
+        <project_date project_type="start">November 01, 2022</project_date>
+        <project_date project_type="end">June 31, 2023</project_date>
+		
+        <project_comments>XML Example 2!</project_comments>
+
+    </project>
+
+</projects>
+
